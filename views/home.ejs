@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+</head>
+<body>
+
+    <h3>Welcome To Payment Gateway</h3>
+    <form action="payment" method="post">
+        <script
+        src="//checkout.stripe.com/v2/checkout.js"
+        class="stripe-button"
+        data-key="<%= key %>"
+        data-amount="7000"
+        data-currency="inr"
+        data-name="Gulshan Khandale"
+        data-description="Buy Course"
+        data-locale="auto"
+        >
+        </script>
+
+    </form>
+    
+</body>
+</html>
