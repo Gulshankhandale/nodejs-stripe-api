@@ -1,7 +1,7 @@
 const express = require('express');
 
 const app = express();
-const SECRET_KEY = 'sk_test_51JhYvuSIor8TYZa3zSURjX3mE2YohNW8Mr1vON1OXCLOfRlk88vZy5PJVcLwklFZAOEbOzdmqj7KwHflxbPr7ZCH00FyGPHYzX'
+const SECRET_KEY = 'YOUR_SECRET_KEY'
 
 const mongoose = require('mongoose');
 
@@ -9,7 +9,7 @@ const path = require('path')
 
 const stripe = require('stripe')(SECRET_KEY);
 
-const PUBLISHABLE_KEY = 'pk_test_51JhYvuSIor8TYZa3SUi0VhV3xMudmNWLYyYjYkDVzNfk9bErFGzu4dRIc0OsJu8PjxBm8YL4mmOH1yYsLeI4EccQ00pNO0U2hG'
+const PUBLISHABLE_KEY = 'YOUR PUBLISHABLE KEY'
 
 const ejs = require('ejs')
 
